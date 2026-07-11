@@ -22,3 +22,5 @@ services:
         sync: false
       - key: OPENAI_API_KEY
         sync: false
+      - key: SQLALCHEMY_DATABASE_URI
+        sync: false
